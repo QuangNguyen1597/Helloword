@@ -1,0 +1,9 @@
+[PropertyInfo]
+net,int,false,false, , ,false,<default>
+position,String,false,false, , ,true,<default>
+Position,String,false,false, , ,false,<default>
+[IconNames]
+
+
+
+
