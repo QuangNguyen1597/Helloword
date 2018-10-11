@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library>
+<!--JBuilder Library Definition File-->
+<fullname>Driver</fullname>
+<class>
+<path>[D%|/Downloads/Program/libs/mysql-connector-java-5.1.7-bin.jar]</path>
+</class>
+<lastmodsaved>1539164159089</lastmodsaved>
+</library>

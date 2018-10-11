@@ -1,0 +1,10 @@
+package soap.object;
+
+public class UserObject {
+    public UserObject() {
+    }
+
+    public static void main(String[] args) {
+        UserObject userobject = new UserObject();
+    }
+}

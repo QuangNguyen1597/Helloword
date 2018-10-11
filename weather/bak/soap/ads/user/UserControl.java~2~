@@ -1,0 +1,30 @@
+package soap.ads.user;
+
+import soap.*;
+import soap.object.*;
+import java.util.*;
+
+public class UserControl {
+    private UserModel um;
+    public UserControl(ConnectionPool cp) {
+        this.um = new UserModel(cp);
+    }
+
+    protected void finalize()  throws Throwable{
+        this.um = null;
+        super.finalize();
+    }
+    public ConnectionPool getCp(){
+       return this.um.getCp();
+   }
+   public void releaseConnection(){
+       this.um.releaseConnection();
+   }
+
+   //---------------------------------
+
+
+    public static void main(String[] args) {
+        UserControl usercontrol = new UserControl();
+    }
+}

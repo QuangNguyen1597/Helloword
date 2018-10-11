@@ -1,0 +1,14 @@
+package soap.ads.user;
+
+import soap.*;
+import soap.object.*;
+import java.sql.*;
+
+public class UserModel {
+    public UserModel() {
+    }
+
+    public static void main(String[] args) {
+        UserModel usermodel = new UserModel();
+    }
+}
